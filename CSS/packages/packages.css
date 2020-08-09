@@ -1,0 +1,97 @@
+main {
+  padding-top: 2rem;
+  width: 80%;
+  margin: auto;
+}
+
+.background {
+  background: url('../images/plans-background.jpg') center/cover;
+  filter: grayscale(35%);
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  z-index: -1;
+}
+
+.main-section a {
+  text-decoration: none;
+}
+
+.main-section {
+  padding: 0.3rem;
+  border: 3px solid #0e4f1f;
+  width: 60%;
+  border-radius: 2px;
+}
+
+.main-section__link {
+  display: block;
+  color: black;
+}
+
+.main-section__link h1 {
+  margin: 1.8rem 2.2rem 1.8rem 2.2rem;
+}
+.clearfix {
+  clear: both;
+}
+
+.main-section__link h2 {
+  color: #979797;
+  margin: 0.7rem 2.2rem 0.7rem 2.2rem;
+}
+
+.package__badge {
+  position: absolute;
+  top: 1.56rem;
+  right: 35rem;
+  margin: 1.3rem;
+  font-size: 0.8rem;
+  color: white;
+  background: #ff5454;
+  padding: 0.5rem;
+}
+
+.float {
+  float: right;
+  text-align: right;
+}
+.main-section__link p {
+  background: white;
+  color: black;
+  padding: 0.3rem;
+  margin: 0.7rem 2.2rem 0.7rem 2.2rem;
+  border: 1px solid green;
+}
+#premium a {
+  text-decoration: none;
+  color: white;
+}
+#plus {
+  background: rgba(213, 255, 220, 0.95);
+}
+
+#free {
+  background: rgba(234, 252, 237, 0.95);
+}
+
+#premium {
+  text-decoration: none;
+  background: rgba(14, 79, 31, 0.95);
+  width: 60%;
+  margin: 0.7rem;
+  padding: 0.3rem;
+  border: 3px solid black;
+}
+
+.main-section:hover,
+.main-section:active {
+  border: 3px solid rgb(204, 71, 71);
+  border-radius: 3px;
+}
+
+#premium:hover,
+#premium:active {
+  border: 3px solid rgb(204, 71, 71);
+  border-radius: 3px;
+}
