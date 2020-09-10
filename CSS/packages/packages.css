@@ -95,3 +95,10 @@ main {
   border: 3px solid rgb(204, 71, 71);
   border-radius: 3px;
 }
+
+@media (min-width: 40rem) {
+  main {
+    margin: 3rem auto;
+    max-width: 1050px;
+  }
+}
